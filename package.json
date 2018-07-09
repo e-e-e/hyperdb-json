@@ -1,0 +1,22 @@
+{
+  "name": "hyperdb-json",
+  "version": "1.0.0",
+  "description": "A json-like interface for hyperdb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Forster",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e-e-e/hyperdb-json.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "hyperdb": "^3.2.0",
+    "random-access-memory": "^3.0.0",
+    "standard": "^11.0.1",
+    "tape": "^4.9.1"
+  }
+}
