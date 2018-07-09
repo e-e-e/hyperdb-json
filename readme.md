@@ -25,7 +25,6 @@ var HyperJson = require('hyperdb-json')
 var ram = require('random-access-memory')
 
 var ramStore = () => ram()
-var ramStore = () => ram()
 var db = hyperdb(ramStore)
 var json = HyperJson(db)
 
